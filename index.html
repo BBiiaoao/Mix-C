@@ -76,7 +76,7 @@
 
     <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;"></div>
     <div id="loadingText" style="width:100%;display: none;text-align:center;position:absolute;top:45%;z-index:2;font-size:20px;color:#f99f0a">
-        正在偷几吧...0%
+        正在冲冲冲...0%
     </div>
 
     <div id="splash">
@@ -111,7 +111,7 @@
             //        console.log("window.navigator.language",window.navigator.language);
 
             if (window.navigator.language == "zh-CN" || window.navigator.language == "zh-cn") {
-                document.title = "合成大几吧";
+                document.title = "合成小徐";
             } else if (window.navigator.language == "ja-JP") {
                 document.title = "Little game：Mix your HugeCock";
             } else {
@@ -154,7 +154,7 @@
                 if (!loadintT) {
                     return;
                 }
-                loadintT.innerHTML = '正在偷几吧......' + parseInt(tempSeconds) + '%';
+                loadintT.innerHTML = '正在冲冲冲......' + parseInt(tempSeconds) + '%';
 
                 switch (tempSeconds) {
                     case 20:
@@ -187,7 +187,7 @@
                 if (tempSeconds > 100) {
                     clearInterval(timer);
                     tempSeconds = 100
-                    loadintT.innerHTML = '正在偷几吧......' + parseInt(tempSeconds) + '%';
+                    loadintT.innerHTML = '正在冲冲冲......' + parseInt(tempSeconds) + '%';
                 }
             }, t * 1000);
         }
@@ -240,9 +240,6 @@
     </script>
 
 
-
-确定不来看看GitHub上的项目然后丢个star吗(星星眼) 
-<a href="https://github.com/CHonesetDoPa/Mix-C/"  target="opentype">点！这！里！</a>
 </body>
 
 </html>
